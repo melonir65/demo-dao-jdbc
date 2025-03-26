@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class SellerDaoJDBC implements SellerDao {
 
-    private final Connection connection;
+    private  Connection connection;
 
     public SellerDaoJDBC (Connection connection){
         this.connection = connection;
